@@ -1,0 +1,12 @@
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/bin/Debug/netcoreapp3.1/cellebriteTask.deps.json
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/bin/Debug/netcoreapp3.1/cellebriteTask.runtimeconfig.json
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/bin/Debug/netcoreapp3.1/cellebriteTask.runtimeconfig.dev.json
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/bin/Debug/netcoreapp3.1/cellebriteTask.dll
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/bin/Debug/netcoreapp3.1/cellebriteTask.pdb
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/obj/Debug/netcoreapp3.1/cellebriteTask.csprojAssemblyReference.cache
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/obj/Debug/netcoreapp3.1/cellebriteTask.AssemblyInfoInputs.cache
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/obj/Debug/netcoreapp3.1/cellebriteTask.AssemblyInfo.cs
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/obj/Debug/netcoreapp3.1/cellebriteTask.csproj.CoreCompileInputs.cache
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/obj/Debug/netcoreapp3.1/cellebriteTask.dll
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/obj/Debug/netcoreapp3.1/cellebriteTask.pdb
+/Users/tmankita/Projects/cellebriteTask/cellebriteTask/obj/Debug/netcoreapp3.1/cellebriteTask.genruntimeconfig.cache

@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{A8B0508E-EA85-4D2C-B1A7-7E37914B350B}|Default">
+  <MonoDevelop.Ide.ItemProperties.cellebriteTask PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="cellebriteTask/Extractor.cs">
+    <Files>
+      <File FileName="cellebriteTask/Program.cs" Line="8" Column="1" />
+      <File FileName="cellebriteTask/contact.cs" Line="11" Column="23" />
+      <File FileName="cellebriteTask/Extractor.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cellebriteTask" expanded="True">
+            <Node name="cellebriteTask" expanded="True">
+              <Node name="Extractor.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
