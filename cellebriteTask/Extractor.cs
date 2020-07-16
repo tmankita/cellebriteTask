@@ -90,7 +90,7 @@ namespace cellebriteTask
             {
                 foreach (string k in keyToConcat.Keys)
                 {
-                    if (key.Contains(k))
+                    if (key.Contains(k) || k.Contains(key))
                     {
                         keyToConcat[k].LastName = value;
                     }
@@ -99,15 +99,17 @@ namespace cellebriteTask
         }
         private void insertPhone(string key, string value)
         {
+
             if (keyToConcat.ContainsKey(key))
             {
                 keyToConcat[key].Phone = value;
             }
             else
             {
+
                 foreach (string k in keyToConcat.Keys)
                 {
-                    if (key.Contains(k))
+                    if (key.Contains(k) || k.Contains(key))
                     {
                         keyToConcat[k].Phone = value;
                     }
@@ -126,7 +128,7 @@ namespace cellebriteTask
             {
                 foreach (string k in keyToConcat.Keys)
                 {
-                    if (key.Contains(k))
+                    if (key.Contains(k) || k.Contains(key))
                     {
                         keyToConcat[k].Time = translated;
                     }
