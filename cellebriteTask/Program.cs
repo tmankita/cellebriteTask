@@ -15,8 +15,8 @@ namespace cellebriteTask
 
         static void Main(string[] args)
         {
-            string source = @"/Users/.../ex_v8";
-            string destination = @"/Users/.../ex_v8_output";
+            string source = @"/Users/tmankita/Projects/cellebriteTask/ex_v8";
+            string destination = @"/Users/tmankita/Projects/cellebriteTask/ex_v8_output";
             Extractor extractor = new Extractor();
             List<Contact> contacts = extractor.extract(source);
             try

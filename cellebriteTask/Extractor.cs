@@ -10,23 +10,13 @@ namespace cellebriteTask
     {
         private Dictionary<string, Contact> keyToConcat;
         private int barrier = 4;
-        private byte[] buffer;
-        private byte[] nextBuffer;
-        private string nextData;
-        private bool isNextBufferEmpty;
-        private bool gotAllKeys;
-        private UTF8Encoding decoder;
         private Dictionary<string, Action<string, string>> valueType_to_handler;
         private Dictionary<int, string> id_to_valueType;
 
 
         public Extractor()
         {
-            UTF8Encoding decoder = new UTF8Encoding(true);
-            buffer = new byte[1024];
-            nextBuffer = new byte[1024];
-            isNextBufferEmpty = true;
-            gotAllKeys = false;
+
             valueType_to_handler = new Dictionary<string, Action<string, string>>()
             { { "FirstName", insertFirstName } ,
                 { "LastName", insertLastName },
@@ -50,7 +40,7 @@ namespace cellebriteTask
         {
             int typeCount = 5;
             int curr = 1;
-            if (File.Exists(path))
+            if (!File.Exists(path))
             {
                 Console.WriteLine("Can't find the data file");
                 return new List<Contact>();
